@@ -1,0 +1,16 @@
+.CTColor{
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--kku-white);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ .h2{
+  color:white
+ }
+
+ .CTColor i {
+  font-size: 48px;
+  color: #fff;
+}

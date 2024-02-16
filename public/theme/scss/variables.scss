@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+:root{
+    --main-color:green;
+    --gray-color:#6C7379;
+    --kku-white:#FFFFFF;
+    --kku-light:#F5F5F5;
+}
+
+ 
+
+/*** Colors ****/
+/**** Font ****/
+/*** Function *****/
+* {
+//   font-family: "DIN Next LT Arabic";
+  text-align: start;
+  color: #707070;
+}
+
+@mixin h3(){
+    font-size: 28px;
+}
+
+@mixin kku_btn(){
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--kku-light);
+  padding-inline: 20px;
+  height: 50px;
+  border-radius: 24px;
+  color: var(--gray-color);
+  text-decoration: none;
+    i{
+      margin-inline-end: 10px;
+    }
+}
+
+.kku_btn{
+  @include kku_btn();
+}
+
+main {
+  background-color: var(--kku-light);
+}

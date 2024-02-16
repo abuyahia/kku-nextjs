@@ -1,0 +1,84 @@
+//sass public/theme/scss/header.scss src/components/header/header.module.css
+
+.header{
+    background-color: var(--kku-white);
+    height: 160px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+   
+ 
+
+  .header_services{
+    background-color: #6c7379;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+  }
+  
+
+ 
+
+  .header_main{
+      width: 100%;
+      max-width: 1320px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #fff;
+      padding-top: 20px;
+      padding-bottom: 15px;
+  }
+  
+  
+  
+ 
+  
+  .logo {
+    width: 250px;
+    a{
+         text-decoration: none;
+    }
+    .logo_text{
+        flex-direction: column;
+        display: flex;
+        text-decoration: none;
+        margin-top: 0px;
+        span {
+          font-weight: 300;
+          margin-inline-start: 14px;
+          align-items: center;
+          display: flex;
+        }
+        
+    }
+    
+  }
+  
+
+ 
+  .mainmenu {
+    width: auto;
+    display: flex;
+    ul {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      li {
+          margin-inline: 20px;
+          display: flex;
+          margin-inline-end: 15px;
+         a{
+          text-decoration: none;
+          .active{
+            color:blueviolet;            
+          }
+         }
+      }    
+    }
+  }
+ 

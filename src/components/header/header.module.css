@@ -1,0 +1,70 @@
+.header {
+  background-color: var(--kku-white);
+  height: 160px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header_services {
+  background-color: #6c7379;
+  height: 60px;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.header_main {
+  width: 100%;
+  max-width: 1320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.logo {
+  width: 250px;
+}
+.logo a {
+  text-decoration: none;
+}
+.logo .logo_text {
+  flex-direction: column;
+  display: flex;
+  text-decoration: none;
+  margin-top: 0px;
+}
+.logo .logo_text span {
+  font-weight: 300;
+  margin-inline-start: 14px;
+  align-items: center;
+  display: flex;
+}
+
+.mainmenu {
+  width: auto;
+  display: flex;
+}
+.mainmenu ul {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.mainmenu ul li {
+  margin-inline: 20px;
+  display: flex;
+  margin-inline-end: 15px;
+}
+.mainmenu ul li a {
+  text-decoration: none;
+}
+.mainmenu ul li a .active {
+  color: blueviolet;
+}
+
+/*# sourceMappingURL=header.module.css.map */
