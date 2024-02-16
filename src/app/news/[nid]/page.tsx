@@ -3,6 +3,7 @@ import Image from 'next/image';
 import PostTemplate from '../../../components/post/PostTemplate';
 
 export default async function newsPost(postID: any){
+        try {
         
         const response = await fetch(`http://kku.aaa:81/ar/api/v1/news/${postID.params.nid}`);
         const posts = await  response.json();
@@ -15,5 +16,8 @@ export default async function newsPost(postID: any){
                 </PostTemplate>
         </>
         )
+        } catch (err) {
+                return(<h1>not result</h1>)
+        }
 
 }

@@ -2,6 +2,10 @@ import Link from "next/link";
 import ActiveLink from "./ActiveLink";
 export default async function MenuApi(){
 
+  try {
+   
+    
+
   const response = await fetch('http://kku.aaa:81/ar/system/menu/main/linkset');
   const getMenu = await response.json();
   const listMenu = getMenu.linkset[0];
@@ -39,4 +43,9 @@ export default async function MenuApi(){
         </ul>
     </nav>
   );
+
+} catch (err) {
+  return(<h1>not result</h1>)
+ }
+
 }
