@@ -4,7 +4,7 @@ import LandingTemplate from '../../components/landing/LandingTemplate';
 
 export default async function newsList(){
         
-    const response = await fetch("https://kku.edu.sa/ar/api/v1/news", {next:{ revalidate: 20 },});
+    const response = await fetch("http://kku.aaa:81/ar/api/v1/news", {next:{ revalidate: 20 },});
     const getNews = await response.json();
     const newsList = getNews.map((news: any) => {
         return (
