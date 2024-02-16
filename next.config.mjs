@@ -21,7 +21,7 @@ const nextConfig = {
         },
         {
           protocol: 'https',
-          hostname: 'kkudr.kku.edu.sa',
+          hostname: 'portal.aseer.gov.sa',
           // pathname: '/sites/default/files/2024-01/',
           
         },
