@@ -5,7 +5,7 @@ import {Dinfont} from  "../../public/theme/scripts/fonts";
 import "bootstrap/dist/css/bootstrap.css";
 import "./globals.css";
 import "../../public/theme/css/content.css";
-import "../../public/theme/css/all.min.css";
+// import "../../public/theme/css/all.min.css";
 
 import BootstrapClient from "../../public/theme/scripts/BootstrapClient";
 
