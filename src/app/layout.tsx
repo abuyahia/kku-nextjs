@@ -7,7 +7,7 @@ import {Dinfont} from  "../../public/theme/scripts/fonts";
 // import "../../public/theme/css/content.css";
 // import "../../public/theme/css/all.min.css";
 
-import BootstrapClient from "../../public/theme/scripts/BootstrapClient";
+// import BootstrapClient from "../../public/theme/scripts/BootstrapClient";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -26,7 +26,7 @@ children,}: Readonly<{
         <main>
           {children}          
         </main>
-        <BootstrapClient />
+        {/* <BootstrapClient /> */}
         <Footer />
       </body>
     </html>
