@@ -1,5 +1,4 @@
 import Image from "next/image";
-import BootstrapClient from "../../public/theme/scripts/BootstrapClient";
 
 export default function Home() {
   return (
@@ -29,8 +28,6 @@ export default function Home() {
     </div>
   </div>
 </div>
-
-<BootstrapClient />
     </main>
   );
 }
