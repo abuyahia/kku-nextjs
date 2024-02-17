@@ -25,7 +25,7 @@ const PostTemplate = ({ title, image, children ,CTName, CTPath, CTColor}: PostTe
         <article className="d-flex flex-column container">
             <Suspense fallback={loaingImage}>
                 {/* <img src={image} alt="kku" /> */}
-                <Image src={image} width={1200} height={600} alt='kku' />
+                <Image src={image} width={1200} className={Styles.image_respo} height={600} alt='kku' />
             </Suspense>
             
             <h2>{title}</h2>

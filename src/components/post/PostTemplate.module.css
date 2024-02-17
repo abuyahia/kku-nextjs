@@ -14,3 +14,10 @@
   font-size: 48px;
   color: #fff;
 }
+@media(max-width:780px){
+  .image_respo{
+    max-width: 100%;
+    height: auto;
+
+  }
+}
