@@ -8,11 +8,7 @@ export default async function MenuJson(){
   const menuArray: Menus =  [
     { "href": "/", "title": "Home","order":0},
     { "href": "/about", "title": "About KKU","order":1},
-    { "href": "/news", "title": "News","order":2},
-    { "href": "/admission", "title": "Admission","order":3},
-    { "href": "/rolleges", "title": "Colleges","order":4},
-    { "href": "/reseach", "title": "Reseach","order":5},  
-    { "href": "/student-live", "title": "Student Live","order":6},    
+    { "href": "/news", "title": "News","order":2}, 
   ]
 
  
